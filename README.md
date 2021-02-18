@@ -1,32 +1,33 @@
 # My configuration for Neovim and Tmux
 My configurations for tmux and neovim.
 # Contents:
-<!-- vim-markdown-toc GFM -->
 
-	* [Tmux](#tmux)
-		* [Demo:](#demo)
-		* [<a name="requirements-tmux"></a> Requirements:](#a-namerequirements-tmuxa-requirements)
-		* [Tmux Status Bar Features:](#tmux-status-bar-features)
-	* [Tmux Shortcuts in this package:](#tmux-shortcuts-in-this-package)
-		* [Vim-like navigation:](#vim-like-navigation)
-	* [Installation:](#installation)
-	* [Neovim](#neovim)
-		* [<a name="requirements-neovim"></a> Requirements:](#a-namerequirements-neovima-requirements)
-		* [Features:](#features)
-		* [Shortcuts included in this package:](#shortcuts-included-in-this-package)
-		* [Installation:](#installation-1)
-* [Credit](#credit)
+<!-- vim-markdown-toc Marked -->
+
+	* [<a name="tmux">Tmux</a>](#<a-name="tmux">tmux</a>)
+		* [<a name="demo">Demo:</a>](#<a-name="demo">demo:</a>)
+		* [<a name="requirements-tmux"></a> Requirements:](#<a-name="requirements-tmux"></a>-requirements:)
+		* [<a name="tmux-status-bar-features">Tmux Status Bar Features:</a>](#<a-name="tmux-status-bar-features">tmux-status-bar-features:</a>)
+	* [<a name="tmux-shortcuts-in-this-package">Tmux Shortcuts in this package:</a>](#<a-name="tmux-shortcuts-in-this-package">tmux-shortcuts-in-this-package:</a>)
+		* [<a name="vim-like-navigation">Vim-like navigation:</a>](#<a-name="vim-like-navigation">vim-like-navigation:</a>)
+	* [<a name="tmux-installation">Installation:</a>](#<a-name="tmux-installation">installation:</a>)
+	* [<a name="neovim">Neovim</a>](#<a-name="neovim">neovim</a>)
+		* [<a name="requirements-neovim"></a> Requirements:](#<a-name="requirements-neovim"></a>-requirements:)
+		* [<a name="features-neovim">Features:</a>](#<a-name="features-neovim">features:</a>)
+		* [<a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>](#<a-name="neovim-shortcuts-in-this-package">shortcuts-included-in-this-package:</a>)
+		* [<a name="neovim-installation">Installation:</a>](#<a-name="neovim-installation">installation:</a>)
+* [<a name="credit">Credit</a>](#<a-name="credit">credit</a>)
 
 <!-- vim-markdown-toc -->
-## Tmux
-### Demo:
+## <a name="tmux">Tmux</a>
+### <a name="demo">Demo:</a>
 ![Tmux Status Bar image](images/tmux-status-bar-demo.png)
 ### <a name="requirements-tmux"></a> Requirements:
 * MacOSX
 * Mail - Mail application
 * Apple Music - Apple Music Application
 * Battery - <a href="https://github.com/tmux-plugins/tpm" target="_blank">Tmux Plugin Manager</a>
-### Tmux Status Bar Features:
+### <a name="tmux-status-bar-features">Tmux Status Bar Features:</a>
 * Shows battery status:
 	* background color changes depending on the battery percentage
 	* Shows battery percentage
@@ -44,7 +45,7 @@ My configurations for tmux and neovim.
 * Date and time (24-hour format)
 * Computer name
 
-## Tmux Shortcuts in this package:
+## <a name="tmux-shortcuts-in-this-package">Tmux Shortcuts in this package:</a>
 **By default the prefix key ``Ctrl + b``**
 * Switch panes with arrow keys
 * ``<prefix>`` and then ``Ctrl + c`` to create a new session
@@ -59,14 +60,14 @@ My configurations for tmux and neovim.
 * ``<prefix>`` and then ``enter`` to enter copy mode
 * ``<prefix>`` and then ``U`` (uppercase) to show url view
 * ``<prefix>`` and then ``r`` to source the .tmux.conf
-### Vim-like navigation:
+### <a name="vim-like-navigation">Vim-like navigation:</a>
 * ``<prefix>`` and then ``l, h, k, or j`` to move to the next pane to the right, left, up, or down, respectively.
 * ``<prefix>`` and then ``L, H, K, or J`` (uppercase) to resize a pane to the right, left, up, or down, respectively
-## Installation:
+## <a name="tmux-installation">Installation:</a>
 1. Make sure you have all of the [Requirements](#requirements-tmux).
 1. Download the .tmux.conf file and put it in you home directory.
 2. Download the ``segments`` directory and put it in in ``~/.tmux/``.
-## Neovim
+## <a name="neovim">Neovim</a>
 This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust files.
 ### <a name="requirements-neovim"></a> Requirements:
 * **<a href="https://neovim.io/" target="_blank">Neovim</a> >= 0.5**
@@ -76,7 +77,7 @@ This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust fi
 * <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> - In order to use the Ranger for Vim plugin
 * <a href="https://git-scm.com/downloads" target="_blank">Git</a> - to use vim-fugitive (git wrapper for neovim/vim)
 * <a href="https://eslint.org/docs/user-guide/getting-started" target="_blank">Eslint</a> - for Javascript linting
-### Features:
+### <a name="features-neovim">Features:</a>
 * LSP config for rust-analyzer linting of the Rust language
 * Autocompletion for Rust
 * <a href="https://github.com/arcticicestudio/nord-vim" target = "_blank">Nord</a> theme for Neovim
@@ -86,7 +87,7 @@ This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust fi
 * <a href="https://github.com/tpope/vim-fugitive" target="_blank">Git Fugitive</a>
 * Live Markdown preview through <a href="https://github.com/euclio/vim-markdown-composer" target="_blank">Markdown-composer</a>
 * built-in <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> through <a href="https://github.com/francoiscabrol/ranger.vim" target="_blank">ranger.vim</a>
-### Shortcuts included in this package:
+### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
 **By default the leader key is ``<space>``**
 * ``<leader>`` and then ``f`` triggers ranger
 * Opening any markdown file automatically opens the markdown composer
@@ -102,12 +103,12 @@ This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust fi
 * ``tab + s`` for smart completion in rust
 * ``Ctrl + ]`` to go to definition in rust
 * ``K`` (uppercase) for hover info
-### Installation:
+### <a name="neovim-installation">Installation:</a>
 1. Make sure you have all of the [Requirements](#requirements-neovim).
 2. Download the init.vim file and put it in ``~/.config/nvim/``.
 3. Download the plug-config folder and also put it in ``~/.config/nvim/``.
 4. Restart neovim if you alread have it open.
 5. Run ``:PlugInstall``.
-# Credit
+# <a name="credit">Credit</a>
 * Inspired by <a href="https://github.com/erikw/tmux-powerline" target="_blank">tmux-powerline</a>
 * Some Keyboard shortcuts inspired by <a href="https://github.com/gpakosz/.tmux" target="_blank">https://github.com/gpakosz/.tmux</a>
