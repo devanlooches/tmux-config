@@ -48,7 +48,7 @@ My configurations for tmux and neovim.
 ## Installation:
 1. Make sure you have all of the [Requirements](#requirements-tmux).
 1. Download the .tmux.conf file and put it in you home directory.
-2. Download the tmux-status-bar-segments directory and put all of its inner files in ``~/.tmux/segments/``.
+2. Download the ``segments`` directory and put it in in ``~/.tmux/``.
 ## Neovim
 This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust files.
 ### <a name="requirements-neovim"></a> Requirements:
