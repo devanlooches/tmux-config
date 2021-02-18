@@ -15,10 +15,9 @@ My configurations for tmux and neovim.
 	* Shows '🔋' when on battery power, '⚡' when charging, or '👍' when charged
 	* shows different stages of shaded '🌕's for different percentages
 		* Like this: '🌕', '🌖', '🌖', '🌗', '🌗', '🌘', '🌘', '🌑'
+	* shows time remaining in battery
 
 ![Tmux Status Bar with drained battery power](images/tmux-status-bar-drained.png)
-	
-	* shows time remaining in battery
 * Shows Apple Music song currently playing:
 	* Shows track name and artist name
 * Shows number of unread mails you have
