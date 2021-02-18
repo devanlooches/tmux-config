@@ -9,11 +9,11 @@
     * [Tmux Shortcuts in this package](#tmux-shortcuts-in-this-package)
       * [Vim-like navigation](#vim-like-navigation)
     * [Installation](#tmux-installation)
-    * [Neovim](#neovim)
-      * [Requirements](#requirements-neovim)
-      * [Features](#features-neovim)
-      * [Shortcuts included in this package](#neovim-shortcuts-in-this-package)
-      * [Installation](#neovim-installation)
+  * [Neovim](#neovim)
+    * [Requirements](#requirements-neovim)
+    * [Features](#features-neovim)
+    * [Shortcuts included in this package](#neovim-shortcuts-in-this-package)
+    * [Installation](#neovim-installation)
   * [Credit](#credit)
 
   ## <a name="tmux">Tmux</a>
