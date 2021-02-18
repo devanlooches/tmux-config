@@ -1,5 +1,23 @@
 # My configuration for Neovim and Tmux
 My configurations for tmux and neovim.
+# Contents:
+<!-- vim-markdown-toc GFM -->
+
+	* [Tmux](#tmux)
+		* [Demo:](#demo)
+		* [<a name="requirements-tmux"></a> Requirements:](#a-namerequirements-tmuxa-requirements)
+		* [Tmux Status Bar Features:](#tmux-status-bar-features)
+	* [Tmux Shortcuts in this package:](#tmux-shortcuts-in-this-package)
+		* [Vim-like navigation:](#vim-like-navigation)
+	* [Installation:](#installation)
+	* [Neovim](#neovim)
+		* [<a name="requirements-neovim"></a> Requirements:](#a-namerequirements-neovima-requirements)
+		* [Features:](#features)
+		* [Shortcuts included in this package:](#shortcuts-included-in-this-package)
+		* [Installation:](#installation-1)
+* [Credit](#credit)
+
+<!-- vim-markdown-toc -->
 ## Tmux
 ### Demo:
 ![Tmux Status Bar image](images/tmux-status-bar-demo.png)
@@ -72,6 +90,7 @@ This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust fi
 **By default the leader key is ``<space>``**
 * ``<leader>`` and then ``f`` triggers ranger
 * Opening any markdown file automatically opens the markdown composer
+* Automatic Markdown table of contents generator through <a href="https://github.com/mzlogin/vim-markdown-toc" target="_blank">Markdown-toc</a>
 * Saving a file causes the below behavior for each file type:
 	* Javascript - Linting with ESlint
 	* HTML - Formattinng with prettier
