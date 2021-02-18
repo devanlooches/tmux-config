@@ -27,6 +27,7 @@ Plug 'dense-analysis/ale'
 " Git Wrapper for Vim
 Plug 'tpope/vim-fugitive'
 
+
 " Markdown prevview
 function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
@@ -63,4 +64,4 @@ source $HOME/.config/nvim/plug-config/emmetrc.vim
 source $HOME/.config/nvim/plug-config/alerc.vim
 
 " lsp_config
-source $HOME/.config/nvim/plug-config/lspconfigrc.vim
+source $HOME/.config/nvim/plug-config/lspconfigrc.vim 
