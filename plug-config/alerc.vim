@@ -11,4 +11,5 @@ let g:ale_fixers = {
 		\ 'scss':['stylelint'],
   	\'css':['prettier'],
 		\'rust': ['rustfmt'],
+		\'markdown':['remark-lint'],
 	\}
