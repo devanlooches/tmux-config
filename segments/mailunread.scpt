@@ -1,5 +1,4 @@
 tell application "Mail"
-	do shell script "sleep 300"
 	run
 	try
 		set miniaturized of windows to true
