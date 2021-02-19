@@ -5,7 +5,8 @@
   * [Tmux](#tmux)
     * [Demo](#demo)
     * [Requirements](#requirements-tmux)
-    * [Tmux Status Bar Features](#tmux-status-bar-features)
+    * [Tmux Features](#tmux-features)
+        * [Tmux Status Bar Features](#tmux-status-bar-features)
     * [Tmux Shortcuts in this package](#tmux-shortcuts-in-this-package)
       * [Vim-like navigation](#vim-like-navigation)
     * [Installation](#tmux-installation)
@@ -24,7 +25,9 @@
   * Mail - Mail application
   * Apple Music - Apple Music Application
   * Battery - <a href="https://github.com/tmux-plugins/tpm" target="_blank">Tmux Plugin Manager</a>
-  ### <a name="tmux-status-bar-features">Tmux Status Bar Features:</a>
+  ### <a name="tmux-features"> Tmux Features:
+  * Continnuous restoration of tmux sessions including the environment, the pane content, and the neovim sessions through <a href="https://github.com/tmux-plugins/tmux-continuum" target="_blank">tmux-continuum</a> and <a href="https://github.com/tmux-plugins/tmux-resurrect" target="_blank">tmux-restoration</a>
+  #### <a name="tmux-status-bar-features">Tmux Status Bar Features:</a>
   * Shows battery status:
     * background color changes depending on the battery percentage
     * Shows battery percentage
