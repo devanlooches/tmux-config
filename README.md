@@ -5,10 +5,10 @@
   * [Tmux](#tmux)
     * [Demo](#demo)
     * [Requirements](#requirements-tmux)
-    * [Tmux Features](#tmux-features)
-        * [Tmux Status Bar Features](#tmux-status-bar-features)
+    * [Tmux Status Bar Features](#tmux-status-bar-features)
     * [Tmux Shortcuts in this package](#tmux-shortcuts-in-this-package)
       * [Vim-like navigation](#vim-like-navigation)
+    * [Other goodies](#other-goodies)
     * [Installation](#tmux-installation)
   * [Neovim](#neovim)
     * [Requirements](#requirements-neovim)
@@ -25,8 +25,6 @@
   * Mail - Mail application
   * Apple Music - Apple Music Application
   * Battery - <a href="https://github.com/tmux-plugins/tpm" target="_blank">Tmux Plugin Manager</a>
-  ### <a name="tmux-features"> Tmux Features:
-  * Continnuous restoration of tmux sessions including the environment, the pane content, and the neovim sessions through <a href="https://github.com/tmux-plugins/tmux-continuum" target="_blank">tmux-continuum</a> and <a href="https://github.com/tmux-plugins/tmux-resurrect" target="_blank">tmux-restoration</a>
   #### <a name="tmux-status-bar-features">Tmux Status Bar Features:</a>
   * Shows battery status:
     * background color changes depending on the battery percentage
@@ -44,7 +42,8 @@
   ![Tmux Status Bar with no sections](images/tmux-status-bar-no-sections.png)
   * Date and time (24-hour format)
   * Computer name
-
+  ## <a name="other-goodies"></a> Other Goodies
+  * I recommend installing <a href="https://github.com/tmuxinator/tmuxinator" target="_blank">tmuxinator</a> as it is a great tool.
   ## <a name="tmux-shortcuts-in-this-package">Tmux Shortcuts in this package:</a>
 **By default the prefix key ``Ctrl + b``**
   * Switch panes with arrow keys
