@@ -75,28 +75,22 @@
   * <a href="https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary" target="_blank">Rust analyzer</a> - for Rust linting
   * <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> - In order to use the Ranger for Vim plugin
   * <a href="https://git-scm.com/downloads" target="_blank">Git</a> - to use vim-fugitive (git wrapper for neovim/vim)
-  * <a href="https://eslint.org/docs/user-guide/getting-started" target="_blank">Eslint</a> - for Javascript linting
   ### <a name="features-neovim">Features:</a>
   * LSP config for rust-analyzer linting of the Rust language
   * Autocompletion for Rust
   * <a href="https://github.com/arcticicestudio/nord-vim" target = "_blank">Nord</a> theme for Neovim
   * <a href="https://github.com/sheerun/vim-polyglot" target="_blank" >vim-polyglot</a> for syntax highlighting of different file types (lazy-loading)
   * <a href="https://www.emmet.io/" target="_blank">Emmet</a> for all file types by way of <a href="https://github.com/mattn/emmet-vim" target="_blank">emmet-vim</a>
-  * <a href="https://eslint.org/docs/user-guide/getting-started" target="_blank">ESlint</a> Javascript linting, css formatting, scss formatting, html formatting, and markdown forma  tting through <a href="https://github.com/dense-analysis/ale" target="_blank">ALE</a>
   * <a href="https://github.com/tpope/vim-fugitive" target="_blank">Git Fugitive</a>
   * Live Markdown preview through <a href="https://github.com/euclio/vim-markdown-composer" target="_blank">Markdown-composer</a>
   * built-in <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> through <a href="https://github.com/francoiscabrol/ranger.vim" target="_blank">ranger.vim</a>
+  * <a href="https://www.tabnine.com/" target="_blank">Tabnine</a> through <a href="https://github.com/codota/tabnine-vim" target="_blank">Tabnine-vim</a> for deep learning auto completion support.
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
   * ``<leader>`` and then ``f`` triggers ranger
   * Opening any markdown file automatically opens the markdown composer
   * Automatic Markdown table of contents generator through <a href="https://github.com/mzlogin/vim-markdown-toc" target="_blank">Markdown-toc</a>
  * Saving a file causes the below behavior for each file type:
-    * Javascript - Linting with ESlint
-    * HTML - Formattinng with prettier
-    * SCSS - Formatting with stylelint
-    * Rust - Formatting with rustfmt
-    * markdown - formatting with remark-lint
     * All file types - removeing trailing lines and triming whitespaces
   * ``tab``for completion in rust
   * ``tab + s`` for smart completion in rust
