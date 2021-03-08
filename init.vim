@@ -21,15 +21,17 @@ Plug 'mattn/emmet-vim'
 " Syntax highlighting for a bunch of files
 Plug 'sheerun/vim-polyglot'
 
-" ALE
-Plug 'dense-analysis/ale'
-
 " Git Wrapper for Vim
 Plug 'tpope/vim-fugitive'
 
+" Neovim Rich Presence For Discord
+Plug 'andweeb/presence.nvim'
+
+"Tab Nine For Neovim
+Plug 'codota/tabnine-vim'
 
 " Markdown prevview
-function! BuildComposer(info)
+ function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
     if has('nvim')
       !cargo build --release --locked
@@ -50,7 +52,7 @@ call plug#end()
 syntax enable
 filetype plugin indent on
 
-colorscheme nord
+ colorscheme nord
 
 let mapleader = " "
 
@@ -60,8 +62,8 @@ set shortmess+=c
 " Emmet
 source $HOME/.config/nvim/plug-config/emmetrc.vim
 
-" ALE
-source $HOME/.config/nvim/plug-config/alerc.vim
-
 " lsp_config
-source $HOME/.config/nvim/plug-config/lspconfigrc.vim 
+source $HOME/.config/nvim/plug-config/lspconfigrc.vim
+
+" Rich Presence Config
+source $HOME/.config/nvim/plug-config/presencerc.vim
