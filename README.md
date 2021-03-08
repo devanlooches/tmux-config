@@ -89,7 +89,6 @@
   **By default the leader key is ``<space>``**
   * ``<leader>`` and then ``f`` triggers ranger
   * Opening any markdown file automatically opens the markdown composer
-  * Automatic Markdown table of contents generator through <a href="https://github.com/mzlogin/vim-markdown-toc" target="_blank">Markdown-toc</a>
  * Saving a file causes the below behavior for each file type:
     * All file types - removeing trailing lines and triming whitespaces
   * ``tab``for completion in rust
