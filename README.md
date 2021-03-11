@@ -75,6 +75,7 @@
   * <a href="https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary" target="_blank">Rust analyzer</a> - for Rust linting
   * <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> - In order to use the Ranger for Vim plugin
   * <a href="https://git-scm.com/downloads" target="_blank">Git</a> - to use vim-fugitive (git wrapper for neovim/vim)
+  * <a href="https://discord.com/" target="_blank">Discord</a> - For the Neovim Rich Presence
   ### <a name="features-neovim">Features:</a>
   * LSP config for rust-analyzer linting of the Rust language
   * Autocompletion for Rust
@@ -84,7 +85,7 @@
   * <a href="https://github.com/tpope/vim-fugitive" target="_blank">Git Fugitive</a>
   * Live Markdown preview through <a href="https://github.com/euclio/vim-markdown-composer" target="_blank">Markdown-composer</a>
   * built-in <a href="https://github.com/ranger/ranger" target="_blank">Ranger</a> through <a href="https://github.com/francoiscabrol/ranger.vim" target="_blank">ranger.vim</a>
-  * <a href="https://www.tabnine.com/" target="_blank">Tabnine</a> through <a href="https://github.com/codota/tabnine-vim" target="_blank">Tabnine-vim</a> for deep learning auto completion support.
+  * Rich Presence for <a href="https://discord.com/" target="_blank">Discord</a> via <a href="https://github.com/andweeb/presence.nvim" target="_blank">presence.nvim</a> with an option to hide certain workspaces by name (see presencerc.vim file under ``plug-config/``
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
   * ``<leader>`` and then ``f`` triggers ranger

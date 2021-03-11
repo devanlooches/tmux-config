@@ -27,9 +27,6 @@ Plug 'tpope/vim-fugitive'
 " Neovim Rich Presence For Discord
 Plug 'andweeb/presence.nvim'
 
-"Tab Nine For Neovim
-Plug 'codota/tabnine-vim'
-
 " Markdown prevview
  function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
