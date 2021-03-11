@@ -71,6 +71,6 @@ function get_project_name(buffer)
 	if trim(dir_name) == "accounts" then
     dir_name = nil
   end
-	return trim(dir_name)
+	return dir_name
 end
 EOF
