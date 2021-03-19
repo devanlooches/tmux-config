@@ -16,6 +16,7 @@
     * [Shortcuts included in this package](#neovim-shortcuts-in-this-package)
     * [Installation](#neovim-installation)
   * [Credit](#credit)
+  * [Todo](#todo)
 
   ## <a name="tmux">Tmux</a>
   ### <a name="demo">Demo:</a>
@@ -105,5 +106,5 @@
   # <a name="credit">Credit</a>
   * Inspired by <a href="https://github.com/erikw/tmux-powerline" target="_blank">tmux-powerline</a>
   * Some Keyboard shortcuts inspired by <a href="https://github.com/gpakosz/.tmux" target="_blank">https://github.com/gpakosz/.tmux</a>
-  # <a name="Todo">Todo</a>
+  # <a name="todo">Todo</a>
   - [ ] Remake mail checker using gmail api instead of applescript
