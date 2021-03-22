@@ -1,4 +1,4 @@
-# My configuration for Neovim and Tmux
+# [My](#about) configuration for Neovim and Tmux
   My configurations for tmux and neovim.
   # Contents:
 
@@ -17,6 +17,7 @@
     * [Installation](#neovim-installation)
   * [Credit](#credit)
   * [Todo](#todo)
+  * [About](#about)
 
   ## <a name="tmux">Tmux</a>
   ### <a name="demo">Demo:</a>
@@ -108,3 +109,5 @@
   * Some Keyboard shortcuts inspired by <a href="https://github.com/gpakosz/.tmux" target="_blank">https://github.com/gpakosz/.tmux</a>
   # <a name="todo">Todo</a>
   - [ ] Remake mail checker using gmail api instead of applescript
+  # <a name="about">About the creator</a>
+  I am a fourteen-year-old budding programmer. This is my first public github repo. Any feedback would be much appreciated! Please post your comments under the Discussions tab.
