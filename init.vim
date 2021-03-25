@@ -1,21 +1,26 @@
+set relativenumber
+set number
+set spell
+set spelllang=en_us
 set omnifunc=ale#completion#OmniFunc
 let g:ale_completion_enabled = 1
 let g:ale_completion_autoimport = 1
 
 call plug#begin('~/.vim/plugged')
+
 " Collection of common configurations for the Nvim LSP client
 Plug 'neovim/nvim-lspconfig'
 
-" Extentions to built-in LSP, for example, providing type inlay hints
-Plug 'tjdevries/lsp_extensions.nvim'
+" Extensions to built-in LSP, for example, providing type inlay hints
+Plug 'nvim-lua/lsp_extensions.nvim'
 
-" Autocompletion framework for built-in LSP
+" Auto completion framework for built-in LSP
 Plug 'nvim-lua/completion-nvim'
 
 " Some color scheme other then default
 Plug 'arcticicestudio/nord-vim'
 
-" Emmet for neovim
+" Emmet for Neovim
 Plug 'mattn/emmet-vim'
 
 " Syntax highlighting for a bunch of files
@@ -27,7 +32,7 @@ Plug 'tpope/vim-fugitive'
 " Neovim Rich Presence For Discord
 Plug 'andweeb/presence.nvim'
 
-" Markdown prevview
+" Markdown preview
  function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
     if has('nvim')
@@ -39,10 +44,6 @@ Plug 'andweeb/presence.nvim'
 endfunction
 
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
-
-" Ranger
-Plug 'francoiscabrol/ranger.vim'
-Plug 'rbgrouleff/bclose.vim'
 
 call plug#end()
 

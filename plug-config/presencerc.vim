@@ -5,7 +5,6 @@ Presence = require("presence"):setup({
     editing_text      = "Editing %s",
     neovim_image_text = "The One True Text Editor",
     main_image        = "neovim",
-    client_id         = "793271441293967371",
 
 		workspace_text = function(git_project_name, buffer)
 			local project_name = git_project_name
@@ -55,8 +54,8 @@ function get_project_name(buffer)
 	if trim(dir_name) == "mutt" then
     dir_name = "Neomutt Config Files"
   end
-	if trim(dir_name) == "omf" then
-    dir_name = "Oh My Fish Config Files"
+	if trim(dir_name) == "zsh" then
+    dir_name = "Zsh Config Files"
   end
 	if trim(dir_name) == "ranger" then
     dir_name = "Ranger Config Files"
@@ -71,6 +70,12 @@ function get_project_name(buffer)
 	if trim(dir_name) == "accounts" then
     dir_name = nil
   end
+	if trim(dir_name) == "T" then
+		dir_name = nil
+	end
+	if trim(dir_name) == ".gnupg" then
+		dir_name = nil
+	end
 	return dir_name
 end
 EOF
