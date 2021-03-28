@@ -1,12 +1,34 @@
+" On enter commands
+set termguicolors
+syntax enable
+autocmd BufWinLeave * mkview
+autocmd BufWinEnter * silent! loadview
+set foldmethod=manual
+" Avoid showing extra messages when using completion
+set shortmess+=c
+filetype plugin indent on
+let mapleader = " "
 set relativenumber
 set number
 set spell
 set spelllang=en_us
 set omnifunc=ale#completion#OmniFunc
-let g:ale_completion_enabled = 1
-let g:ale_completion_autoimport = 1
 
+
+" Plugins
 call plug#begin('~/.vim/plugged')
+
+" Vim Easy Motions
+Plug 'easymotion/vim-easymotion'
+
+" Colorscheme
+Plug 'haishanh/night-owl.vim'
+
+" Bracket Pair Colorizer
+Plug 'luochen1990/rainbow'
+
+" Colorizer For Neovim
+Plug 'norcalli/nvim-colorizer.lua'
 
 " Collection of common configurations for the Nvim LSP client
 Plug 'neovim/nvim-lspconfig'
@@ -19,9 +41,6 @@ Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 " Auto completion framework for built-in LSP
 Plug 'nvim-lua/completion-nvim'
-
-" Some color scheme other then default
-Plug 'arcticicestudio/nord-vim'
 
 " Emmet for Neovim
 Plug 'mattn/emmet-vim'
@@ -36,7 +55,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'andweeb/presence.nvim'
 
 " Markdown preview
- function! BuildComposer(info)
+function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
     if has('nvim')
       !cargo build --release --locked
@@ -49,16 +68,17 @@ endfunction
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 
 call plug#end()
+" Init Colorizer Plugin
+lua require'colorizer'.setup()
 
-syntax enable
-filetype plugin indent on
+" Set Colorscheme
+colorscheme night-owl
 
- colorscheme two-fire-watch
 
-let mapleader = " "
 
-" Avoid showing extra messages when using completion
-set shortmess+=c
+" Source plugin configs
+" Rainbow
+source $HOME/.config/nvim/plug-config/rainbowrc.vim
 
 " Emmet
 source $HOME/.config/nvim/plug-config/emmetrc.vim
@@ -71,3 +91,6 @@ source $HOME/.config/nvim/plug-config/presencerc.vim
 
 " Firenvim Config
 source $HOME/.config/nvim/plug-config/firenvimrc.vim
+
+" Easy Motion Config
+source $HOME/.config/nvim/plug-config/easymotionrc.vim

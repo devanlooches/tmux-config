@@ -90,7 +90,7 @@
   ### <a name="features-neovim">Features:</a>
   * LSP config for rust-analyzer linting of the Rust language
   * Autocompletion for Rust
-  * <a href="https://github.com/rakr/vim-two-firewatch" target = "_blank">Two Fire Watch</a> theme for Neovim
+  * <a href="https://github.com/haishanh/night-owl.vim" target = "_blank">Night Owl</a> theme for Neovim
   * <a href="https://github.com/sheerun/vim-polyglot" target="_blank" >vim-polyglot</a> for syntax highlighting of different file types (lazy-loading)
   * <a href="https://www.emmet.io/" target="_blank">Emmet</a> for all file types by way of <a href="https://github.com/mattn/emmet-vim" target="_blank">emmet-vim</a>
   * <a href="https://github.com/tpope/vim-fugitive" target="_blank">Git Fugitive</a>
@@ -98,6 +98,9 @@
   * Rich Presence for <a href="https://discord.com/" target="_blank">Discord</a> via <a href="https://github.com/andweeb/presence.nvim" target="_blank">presence.nvim</a> with an option to hide certain workspaces by name (see presencerc.vim file under ``plug-config/``)
   * Neovim in your browser via <a href="https://github.com/glacambre/firenvim" target="_blank">Firenvim</a>
   * Automatic code fold loading.
+  *  <a href="https://github.com/easymotion/vim-easymotion" target="_blank">Easy Motions</a> For Vim
+  * Bracket Pair colorizer for vim by way of <a href="https://github.com/luochen1990/rainbow" target="_blank">Rainbow</a>
+  * Colorizer for vim by way of <a href="https://github.com/norcalli/nvim-colorizer.lua" target="_blank">nvim-colorizer.lua</a>
 
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
@@ -106,15 +109,16 @@
   * ``tab + s`` for smart completion in rust
   * ``Ctrl + ]`` to go to definition in rust
   * ``K`` (uppercase) for hover info
+  * ``<leader> + /`` To label each word with for easy cursor navigation.
+  * ``s`` To search for two specific characters and label them for easy cursor navigation
 
   ### <a name="neovim-installation">Installation:</a>
   1. Make sure you have all of the [Requirements](#requirements-neovim).
   2. Download the init.vim file and put it in ``~/.config/nvim/``.
   3. Download the plug-Config folder and also put it in ``~/.config/nvim/``.
-  4. Download the colors folder and put it in ``~/.config/nvim/``.
-  5. Restart Neovim if you already have it open.
-  6. Run ``:PlugInstall``.
-  7. Execute the following command to install the necessary script for firenvim to work:
+  4. Restart Neovim if you already have it open.
+  5. Run ``:PlugInstall``.
+  6. Execute the following command to install the necessary script for firenvim to work:
    ~~~ bash 
     $ nvim --headless "+call firenvim#install(0) | q"
    ~~~
