@@ -109,7 +109,7 @@
   * ``tab + s`` for smart completion in rust
   * ``Ctrl + ]`` to go to definition in rust
   * ``K`` (uppercase) for hover info
-  * ``<leader> + /`` To label each word with for easy cursor navigation.
+  * ``<leader> + /`` To label each word with letters for easy cursor navigation.
   * ``s`` To search for two specific characters and label them for easy cursor navigation
 
   ### <a name="neovim-installation">Installation:</a>
