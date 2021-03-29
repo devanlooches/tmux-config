@@ -55,8 +55,6 @@
   * Switch panes with arrow keys
   * ``<prefix>`` and then ``Ctrl + c`` to create a new session
   * ``<prefix>`` and then ``Ctrl + f`` to find a session
-  * ``<prefix>`` and then ``_`` to split current window vertically
-  * ``<prefix`` and then ``-`` to split current window horizontally
   * ``<prefix>`` and then ``>`` to swap current pane with the next one
   * ``<prefix>`` and then ``<`` to swap current pane with the previous one
   * ``<prefix>`` and then ``Ctrl + h`` to go to the previous window
@@ -98,9 +96,11 @@
   * Rich Presence for <a href="https://discord.com/" target="_blank">Discord</a> via <a href="https://github.com/andweeb/presence.nvim" target="_blank">presence.nvim</a> with an option to hide certain workspaces by name (see presencerc.vim file under ``plug-config/``)
   * Neovim in your browser via <a href="https://github.com/glacambre/firenvim" target="_blank">Firenvim</a>
   * Automatic code fold loading.
-  *  <a href="https://github.com/easymotion/vim-easymotion" target="_blank">Easy Motions</a> For Vim
   * Bracket Pair colorizer for vim by way of <a href="https://github.com/luochen1990/rainbow" target="_blank">Rainbow</a>
   * Colorizer for vim by way of <a href="https://github.com/norcalli/nvim-colorizer.lua" target="_blank">nvim-colorizer.lua</a>
+  * Table mode for vim through <a href="https://github.com/dhruvasagar/vim-table-mode" target="_blank">Vim Table Mode</a>
+  * <a href="https://github.com/vim-airline/vim-airline" target="_blank">Airline</a> Status bar
+  * Vim tips on startup by way of <a href="https://github.com/michaelb/vim-tips" target="_blank">Vim Tips</a>
 
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
@@ -111,6 +111,8 @@
   * ``K`` (uppercase) for hover info
   * ``<leader> + /`` To label each word with letters for easy cursor navigation.
   * ``s`` To search for two specific characters and label them for easy cursor navigation
+  * ``<movement> + gc`` To comment/uncomment by movement
+  * ``gcc`` To comment/uncomment current line
 
   ### <a name="neovim-installation">Installation:</a>
   1. Make sure you have all of the [Requirements](#requirements-neovim).
@@ -119,9 +121,9 @@
   4. Restart Neovim if you already have it open.
   5. Run ``:PlugInstall``.
   6. Execute the following command to install the necessary script for firenvim to work:
-   ~~~ bash 
+   ``` 
     $ nvim --headless "+call firenvim#install(0) | q"
-   ~~~
+   ```
 
   # <a name="credit">Credit</a>
   * Inspired by <a href="https://github.com/erikw/tmux-powerline" target="_blank">Tmux-Powerline</a>
