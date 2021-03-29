@@ -109,8 +109,6 @@
   * ``tab + s`` for smart completion in rust
   * ``Ctrl + ]`` to go to definition in rust
   * ``K`` (uppercase) for hover info
-  * ``<leader> + /`` To label each word with letters for easy cursor navigation.
-  * ``s`` To search for two specific characters and label them for easy cursor navigation
   * ``<movement> + gc`` To comment/uncomment by movement
   * ``gcc`` To comment/uncomment current line
 
