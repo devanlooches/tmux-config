@@ -13,7 +13,9 @@ set number
 set spell
 set spelllang=en_us
 set omnifunc=ale#completion#OmniFunc
-
+vnoremap y "+y
+vnoremap p "+p
+vnoremap P "+P
 
 " Plugins
 call plug#begin('~/.vim/plugged')

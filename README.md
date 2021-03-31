@@ -101,6 +101,7 @@
   * Table mode for vim through <a href="https://github.com/dhruvasagar/vim-table-mode" target="_blank">Vim Table Mode</a>
   * <a href="https://github.com/vim-airline/vim-airline" target="_blank">Airline</a> Status bar
   * Vim tips on startup by way of <a href="https://github.com/michaelb/vim-tips" target="_blank">Vim Tips</a>
+  * Automatically copy and paste from normal register to allow copy and pasting to and from vim
 
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
