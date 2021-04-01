@@ -1,7 +1,6 @@
 " On enter commands
 set termguicolors
 syntax enable
-autocmd BufWinLeave * mkview
 autocmd BufWinEnter * silent! loadview
 set foldmethod=manual
 " Avoid showing extra messages when using completion
@@ -17,8 +16,18 @@ vnoremap y "+y
 vnoremap p "+p
 vnoremap P "+P
 
+
 " Plugins
 call plug#begin('~/.vim/plugged')
+
+" Vim Cool
+Plug 'romainl/vim-cool'
+
+" Vim Telescope
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 " Airline
 Plug 'vim-airline/vim-airline'
@@ -105,8 +114,8 @@ source $HOME/.config/nvim/plug-config/presencerc.vim
 " Firenvim Config
 source $HOME/.config/nvim/plug-config/firenvimrc.vim
 
-" Easy Motion Config
-source $HOME/.config/nvim/plug-config/easymotionrc.vim
-
 " Table Mode Config For markdown tables
 source $HOME/.config/nvim/plug-config/tablemoderc.vim
+
+" Telescope Config
+source $HOME/.config/nvim/plug-config/telescoperc.vim
