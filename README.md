@@ -102,6 +102,8 @@
   * <a href="https://github.com/vim-airline/vim-airline" target="_blank">Airline</a> Status bar
   * Vim tips on startup by way of <a href="https://github.com/michaelb/vim-tips" target="_blank">Vim Tips</a>
   * Automatically copy and paste from normal register to allow copy and pasting to and from vim
+  * Automatically unhighlight after your search is done with <a href="https://github.com/romainl/vim-cool" target="_blank">vim-cool</a>
+  <a href="https://github.com/nvim-telescope/telescope.nvim" target="_blank">Telescope</a> plugin
 
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
@@ -112,6 +114,14 @@
   * ``K`` (uppercase) for hover info
   * ``<movement> + gc`` To comment/uncomment by movement
   * ``gcc`` To comment/uncomment current line
+  * ``<leader> + gs`` to show git status from Git fugitive.
+  * ``<leader> + h`` to resolve a conflict by taking accepting the left side.
+  * ``<leader> + l`` to resolve a conflict by taking accepting the right side.
+  * ``<leader> + ff`` to find a file with telescope.Nvim
+  * ``<leader> + fc`` to search commands with telescope.nvim
+  * ``<leader> + fg`` for telescope live grep
+  * ``<leader> + fh`` to search for help tags with telescope.Nvim
+  * ``<leader> + fb`` to search current open Nvim buffers with telescope
 
   ### <a name="neovim-installation">Installation:</a>
   1. Make sure you have all of the [Requirements](#requirements-neovim).

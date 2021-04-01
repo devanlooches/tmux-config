@@ -96,7 +96,9 @@ lua require'colorizer'.setup()
 colorscheme night-owl
 autocmd BufWinEnter * AirlineTheme night_owl
 
-
+" Fast edit vimrc
+nnoremap <leader>v <cmd>e ~/.config/nvim/init.vim<cr>
+nnoremap <leader>r <cmd>source ~/.config/nvim/init.vim<cr>
 
 " Source plugin configs
 " Rainbow
@@ -119,3 +121,6 @@ source $HOME/.config/nvim/plug-config/tablemoderc.vim
 
 " Telescope Config
 source $HOME/.config/nvim/plug-config/telescoperc.vim
+
+" Git Fugitive
+source $HOME/.config/nvim/plug-config/gitfugitiverc.vim
