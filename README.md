@@ -115,8 +115,8 @@
   * ``<movement> + gc`` To comment/uncomment by movement
   * ``gcc`` To comment/uncomment current line
   * ``<leader> + gs`` to show git status from Git fugitive.
-  * ``<leader> + h`` to resolve a conflict by taking accepting the left side.
-  * ``<leader> + l`` to resolve a conflict by taking accepting the right side.
+  * ``<leader> + h`` to resolve a conflict by accepting the left side.
+  * ``<leader> + l`` to resolve a conflict by accepting the right side.
   * ``<leader> + ff`` to find a file with telescope.Nvim
   * ``<leader> + fc`` to search commands with telescope.nvim
   * ``<leader> + fg`` for telescope live grep
