@@ -12,13 +12,17 @@ set number
 set spell
 set spelllang=en_us
 set omnifunc=ale#completion#OmniFunc
-vnoremap y "+y
-vnoremap p "+p
-vnoremap P "+P
-
+set clipboard+=unnamedplus
+noremap <leader>d "_d
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+
+" Autoclose
+Plug 'jiangmiao/auto-pairs'
+
+" Snippets
+Plug 'Shougo/neosnippet.vim' | Plug 'Shougo/neosnippet-snippets'
 
 " Vim Cool
 Plug 'romainl/vim-cool'
@@ -88,6 +92,8 @@ endfunction
 
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 
+Plug '/Users/devan/workspace/rust_stuff/neovim-apple-calendar'
+
 call plug#end()
 " Init Colorizer Plugin
 lua require'colorizer'.setup()
@@ -124,3 +130,9 @@ source $HOME/.config/nvim/plug-config/telescoperc.vim
 
 " Git Fugitive
 source $HOME/.config/nvim/plug-config/gitfugitiverc.vim
+
+" Snippets Config
+source $HOME/.config/nvim/plug-config/snippetsrc.vim
+
+" Auto Pairs Config
+source $HOME/.config/nvim/plug-config/autopairrc.vim

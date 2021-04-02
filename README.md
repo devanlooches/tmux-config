@@ -121,6 +121,7 @@
   * ``<leader> + fc`` to search commands with telescope.nvim
   * ``<leader> + fg`` for telescope live grep
   * ``<leader> + fh`` to search for help tags with telescope.Nvim
+  * ``<leader> + d`` to delete without saving to a register 
   * ``<leader> + fb`` to search current open Nvim buffers with telescope
 
   ### <a name="neovim-installation">Installation:</a>
