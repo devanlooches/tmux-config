@@ -88,6 +88,7 @@
   ### <a name="features-neovim">Features:</a>
   * LSP config for rust-analyzer linting of the Rust language
   * Autocompletion for Rust
+  * Snippets for many languages by way of <a href="https://github.com/Shougo/neosnippet.vim" target="_blank">Neosnippet.vim</a>
   * <a href="https://github.com/haishanh/night-owl.vim" target = "_blank">Night Owl</a> theme for Neovim
   * <a href="https://github.com/sheerun/vim-polyglot" target="_blank" >vim-polyglot</a> for syntax highlighting of different file types (lazy-loading)
   * <a href="https://www.emmet.io/" target="_blank">Emmet</a> for all file types by way of <a href="https://github.com/mattn/emmet-vim" target="_blank">emmet-vim</a>
@@ -108,8 +109,9 @@
   ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
   **By default the leader key is ``<space>``**
   * Opening any markdown file automatically opens the markdown composer
-  * ``tab``for completion in rust
+  * ``tab`` for completion in rust
   * ``tab + s`` for smart completion in rust
+  * ``tab`` to expand snippet
   * ``Ctrl + ]`` to go to definition in rust
   * ``K`` (uppercase) for hover info
   * ``<movement> + gc`` To comment/uncomment by movement

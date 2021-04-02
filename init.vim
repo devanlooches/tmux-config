@@ -92,8 +92,6 @@ endfunction
 
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
 
-Plug '/Users/devan/workspace/rust_stuff/neovim-apple-calendar'
-
 call plug#end()
 " Init Colorizer Plugin
 lua require'colorizer'.setup()
