@@ -75,4 +75,4 @@
   # <a name="todo">Todo</a>
   - [ ] Remake mail checker using Gmail api instead of applescript
   # <a name="about">About the creator</a>
-  I am a fourteen-year-old budding programmer. This is my first public Github repo. Any feedback would be much appreciated! Please post your comments under the Discussions tab.
+  I am a fourteen-year-old budding programmer. This is my first public Github repo. Any feedback would be much appreciated! Please post your comments under the Discussions tab. 
