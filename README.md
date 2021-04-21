@@ -11,11 +11,6 @@
       * [Vim-like navigation](#vim-like-navigation)
     * [Other goodies](#other-goodies)
     * [Installation](#tmux-installation)
-  * [Neovim](#neovim)
-    * [Requirements](#requirements-neovim)
-    * [Features](#features-neovim)
-    * [Shortcuts included in this package](#neovim-shortcuts-in-this-package)
-    * [Installation](#neovim-installation)
   * [Credit](#credit)
   * [Todo](#todo)
   * [About Me](#about)
@@ -72,70 +67,6 @@
   1. Make sure you have all of the [Requirements](#requirements-tmux).
   1. Download the .tmux.conf file and put it in you home directory.
   2. Download the ``segments`` directory and put it in in ``~/.tmux/``.
-
-  ## <a name="neovim">Neovim</a>
-  This is a neovim config setup for editing mostly Javascript/HTML/CSS and Rust files.
-
-  ### <a name="requirements-neovim"></a> Requirements:
-  * **<a href="https://neovim.io/" target="_blank">Neovim</a> >= 0.5**
-  * <a href="https://github.com/junegunn/vim-plug" target="_blank">Vim-Plug</a>
-  * <a href="https://rustup.rs" target="_blank">Rustup</a>
-  * <a href="https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary" target="_blank">Rust analyzer</a> - for Rust linting
-  * <a href="https://git-scm.com/downloads" target="_blank">Git</a> - to use vim-fugitive (git wrapper for Neovim/vim)
-  * <a href="https://discord.com/" target="_blank">Discord</a> - For the Neovim Rich Presence
-  * Firenvim <a href="https://chrome.google.com/webstore/detail/firenvim/egpjdkipkomnmjhjmdamaniclmdlobbo" target="_blank">Browser Extension</a> - For Neovim in your browser!!!!
-
-  ### <a name="features-neovim">Features:</a>
-  * LSP config for rust-analyzer linting of the Rust language
-  * Autocompletion for Rust
-  * Snippets for many languages by way of <a href="https://github.com/Shougo/neosnippet.vim" target="_blank">Neosnippet.vim</a>
-  * <a href="https://github.com/haishanh/night-owl.vim" target = "_blank">Night Owl</a> theme for Neovim
-  * <a href="https://github.com/sheerun/vim-polyglot" target="_blank" >vim-polyglot</a> for syntax highlighting of different file types (lazy-loading)
-  * <a href="https://www.emmet.io/" target="_blank">Emmet</a> for all file types by way of <a href="https://github.com/mattn/emmet-vim" target="_blank">emmet-vim</a>
-  * <a href="https://github.com/tpope/vim-fugitive" target="_blank">Git Fugitive</a>
-  * Live Markdown preview through <a href="https://github.com/euclio/vim-markdown-composer" target="_blank">Markdown-composer</a>
-  * Rich Presence for <a href="https://discord.com/" target="_blank">Discord</a> via <a href="https://github.com/andweeb/presence.nvim" target="_blank">presence.nvim</a> with an option to hide certain workspaces by name (see presencerc.vim file under ``plug-config/``)
-  * Neovim in your browser via <a href="https://github.com/glacambre/firenvim" target="_blank">Firenvim</a>
-  * Automatic code fold loading.
-  * Bracket Pair colorizer for vim by way of <a href="https://github.com/luochen1990/rainbow" target="_blank">Rainbow</a>
-  * Colorizer for vim by way of <a href="https://github.com/norcalli/nvim-colorizer.lua" target="_blank">nvim-colorizer.lua</a>
-  * Table mode for vim through <a href="https://github.com/dhruvasagar/vim-table-mode" target="_blank">Vim Table Mode</a>
-  * <a href="https://github.com/vim-airline/vim-airline" target="_blank">Airline</a> Status bar
-  * Vim tips on startup by way of <a href="https://github.com/michaelb/vim-tips" target="_blank">Vim Tips</a>
-  * Automatically copy and paste from normal register to allow copy and pasting to and from vim
-  * Automatically unhighlight after your search is done with <a href="https://github.com/romainl/vim-cool" target="_blank">vim-cool</a>
-  <a href="https://github.com/nvim-telescope/telescope.nvim" target="_blank">Telescope</a> plugin
-
-  ### <a name="neovim-shortcuts-in-this-package">Shortcuts included in this package:</a>
-  **By default the leader key is ``<space>``**
-  * Opening any markdown file automatically opens the markdown composer
-  * ``tab`` for completion in rust
-  * ``tab + s`` for smart completion in rust
-  * ``tab`` to expand snippet
-  * ``Ctrl + ]`` to go to definition in rust
-  * ``K`` (uppercase) for hover info
-  * ``<movement> + gc`` To comment/uncomment by movement
-  * ``gcc`` To comment/uncomment current line
-  * ``<leader> + gs`` to show git status from Git fugitive.
-  * ``<leader> + h`` to resolve a conflict by accepting the left side.
-  * ``<leader> + l`` to resolve a conflict by accepting the right side.
-  * ``<leader> + ff`` to find a file with telescope.Nvim
-  * ``<leader> + fc`` to search commands with telescope.nvim
-  * ``<leader> + fg`` for telescope live grep
-  * ``<leader> + fh`` to search for help tags with telescope.Nvim
-  * ``<leader> + d`` to delete without saving to a register 
-  * ``<leader> + fb`` to search current open Nvim buffers with telescope
-
-  ### <a name="neovim-installation">Installation:</a>
-  1. Make sure you have all of the [Requirements](#requirements-neovim).
-  2. Download the init.vim file and put it in ``~/.config/nvim/``.
-  3. Download the plug-Config folder and also put it in ``~/.config/nvim/``.
-  4. Restart Neovim if you already have it open.
-  5. Run ``:PlugInstall``.
-  6. Execute the following command to install the necessary script for firenvim to work:
-   ``` 
-    $ nvim --headless "+call firenvim#install(0) | q"
-   ```
 
   # <a name="credit">Credit</a>
   * Inspired by <a href="https://github.com/erikw/tmux-powerline" target="_blank">Tmux-Powerline</a>
