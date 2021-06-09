@@ -12,7 +12,6 @@
     * [Other goodies](#other-goodies)
     * [Installation](#tmux-installation)
   * [Credit](#credit)
-  * [Todo](#todo)
   * [About Me](#about)
 
   ## <a name="tmux">Tmux</a>
@@ -72,7 +71,5 @@
   * Inspired by <a href="https://github.com/erikw/tmux-powerline" target="_blank">Tmux-Powerline</a>
   * Some Keyboard shortcuts inspired by <a href="https://github.com/gpakosz/.tmux" target="_blank">https://github.com/gpakosz/.tmux</a>
 
-  # <a name="todo">Todo</a>
-  - [ ] Remake mail checker using Gmail api instead of applescript
   # <a name="about">About the creator</a>
-  I am a fourteen-year-old budding programmer. This is my first public Github repo. Any feedback would be much appreciated! Please post your comments under the Discussions tab. 
+  I am a 15-year-old budding programmer. This is my first public Github repo. Any feedback would be much appreciated! Please post your comments under the Discussions tab. 
